@@ -1,0 +1,16 @@
+{
+  "compatibilityLevel": "JAVA_8",
+  "required": true,
+  "package": "com.github.standobyte.jrpg.mixin",
+  "refmap": "mixins.jrpg.refmap.json",
+  "minVersion": "0.8",
+  "mixins": [
+    "LivingEntityMixin",
+    "MobEntityMixin",
+    "TameableEntityMixin",
+    "WolfEntityMixin",
+    "SlimeEntityMixin",
+    "TargetGoalMixin",
+    "FoodStatsMixin"
+  ]
+}

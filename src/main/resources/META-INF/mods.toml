@@ -1,0 +1,63 @@
+modLoader="javafml"
+loaderVersion="[36,)"
+license="GNU GPL v3.0"
+issueTrackerURL="https://github.com/StandoByte/Ripples-of-the-Past/issues"
+
+[[mods]]
+    modId="jojo"
+    version="${file.jarVersion}"
+    displayName="Ripples of the Past"
+    updateJSONURL="https://raw.githubusercontent.com/StandoByte/Ripples-of-the-Past/1.16.5-0.2.2/update.json"
+    displayURL=''' 
+https://curseforge.com/minecraft/mc-mods/ripples-of-the-past/
+https://modrinth.com/mod/ripples-of-the-past
+    '''
+    logoFile="logo.png"
+    credits='''
+    
+  Stand sound effects:
+    Spybreak001 - https://youtube.com/user/Spybreak001
+    dendy - https://www.youtube.com/channel/UCfFQSPN-Zxx8jEALchUPpPw
+    Folzy SFX Sound Design (the channel has been renamed and all the videos seem to be removed from the public access)
+    JoJo SFX Green Screen & Blue Screen - https://www.youtube.com/channel/UCkxl6FSocj8mHEIJRw5KjYg
+  Voice lines from Eyes of Heaven and All Star Battle games: https://sounds-resource.com/
+  Asset contributions:
+  	New Star Platinum and The World models - WhiteMind, August_dr
+    2D sprites - KWiNTA, Yujin
+    Player animations - August_dr, iIIiBlackiIIi
+    Hamon Master remodel - August_dr
+    Translation files:
+      Brazilian Portuguese: Complexo
+      Chinese Simplified: GeziGG233
+      Italian: Giancarlo Esposito
+      Japanese: SK
+      Spanish: dhilansyt
+      Ukrainian: kage0100
+  Boosty subscribers:
+    Wooden man, mepmop, Pypetka56, Yarik, ArchLunatic
+    YetDarker, Pr1tcha, Yujin, Robert E.O. Scorpivan, wain, adel, Lucifer Dennitsa, 999hhh20, ThE ReVeRsE_FlAsH, Кхъ, _Taske, ArmorForm, NIKKI102, ko1n, 黃藝澤, Alec
+'''
+    authors="StandoByte"
+    description='''
+    This mod adds items and supernatural powers (Hamon, vampirism and Stands) from the JoJo's Bizarre Adventure manga and anime series.'''
+
+[[dependencies.jojo]]
+    modId="forge"
+    mandatory=true
+    versionRange="[36.2.20,)"
+    ordering="NONE"
+    side="BOTH"
+
+[[dependencies.jojo]]
+    modId="playeranimator"
+    mandatory=false
+    versionRange="[0.4.0+1.16.5,)"
+    ordering="NONE"
+    side="CLIENT"
+
+[[dependencies.jojo]]
+    modId="bendylib"
+    mandatory=false
+    versionRange="[1.2.1,)"
+    ordering="NONE"
+    side="CLIENT"

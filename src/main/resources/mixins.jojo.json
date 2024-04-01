@@ -1,0 +1,23 @@
+{
+  "compatibilityLevel": "JAVA_8",
+  "package": "com.github.standobyte.jojo.mixin",
+  "refmap": "mixins.jojo.refmap.json",
+  "minVersion": "0.8",
+  "mixins": [
+    "LivingEntityMixin",
+    "PlayerEntityMixin",
+    "ServerPlayerEntityMixin",
+    "ServerChunkProviderMixin",
+    "FireBlockMixin",
+    "ForgeSimpleChannelMixin",
+    "TheMostUnnecessaryMixin"
+  ],
+  "client": [
+    "client.ParticleManagerMixin",
+    "client.TextureManagerMixin",
+    "client.WorldRendererMixin",
+    "client.ClientPlayNetHandlerMixin",
+    "client.EntityClMixin",
+    "client.LivingEntityClMixin"
+  ]
+}
